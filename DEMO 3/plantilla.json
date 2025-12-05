@@ -1,0 +1,99 @@
+{
+  "pageDimensions": [
+    2550,
+    3300
+  ],
+  "bubbleDimensions": [
+    44,
+    44
+  ],
+  "preProcessors": [
+    {
+      "name": "Levels",
+      "options": {
+        "low": 0.2,
+        "high": 1.0
+      }
+    },
+    {
+      "name": "FeatureBasedAlignment",
+      "options": {
+        "reference": "reference50.png",
+        "maxFeatures": 1000,
+        "2d": true
+      }
+    },
+    {
+      "name": "GaussianBlur",
+      "options": {
+        "kSize": [
+          3,
+          3
+        ],
+        "sigmaX": 0
+      }
+    }
+  ],
+  "fieldBlocks": {
+    "q01block": {
+      "origin": [
+        208,
+        1022
+      ],
+      "bubblesGap": 69,
+      "labelsGap": 114,
+      "fieldLabels": [
+        "q1..10"
+      ],
+      "fieldType": "QTYPE_MCQ4"
+    },
+    "q11block": {
+      "origin": [
+        708,
+        1022
+      ],
+      "bubblesGap": 69,
+      "labelsGap": 114,
+      "fieldLabels": [
+        "q11..20"
+      ],
+      "fieldType": "QTYPE_MCQ4"
+    },
+    "q21block": {
+      "origin": [
+        1192,
+        1022
+      ],
+      "bubblesGap": 69,
+      "labelsGap": 114,
+      "fieldLabels": [
+        "q21..30"
+      ],
+      "fieldType": "QTYPE_MCQ4"
+    },
+    "q31block": {
+      "origin": [
+        1676,
+        1022
+      ],
+      "bubblesGap": 69,
+      "labelsGap": 114,
+      "fieldLabels": [
+        "q31..40"
+      ],
+      "fieldType": "QTYPE_MCQ4"
+    },
+    "q41block": {
+      "origin": [
+        2165,
+        1022
+      ],
+      "bubblesGap": 69,
+      "labelsGap": 114,
+      "fieldLabels": [
+        "q41..50"
+      ],
+      "fieldType": "QTYPE_MCQ4"
+    }
+  }
+}
